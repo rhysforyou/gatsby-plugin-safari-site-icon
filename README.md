@@ -1,5 +1,7 @@
 # gatsby-plugin-safari-site-icon
 
+![GitHub](https://img.shields.io/github/license/rhysforyou/gatsby-plugin-safari-site-icon.svg?style=flat-square) ![npm (scoped)](https://img.shields.io/npm/v/@rhysforyou/gatsby-plugin-safari-site-icon.svg?style=flat-square)
+
 Adds support for shipping a Safari site icon with your site. Safari site icons
 are monochrome, SVG icons which safari uses in place of favicons where provided.
 
