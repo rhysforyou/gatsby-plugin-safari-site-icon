@@ -1,0 +1,29 @@
+{
+  "name": "@rhysforyou/gatsby-plugin-safari-site-icon",
+  "version": "0.1.0",
+  "description": "Add an SVG icon for Safari to your Gatsby site",
+  "main": "index.js",
+  "repository": "https://github.com/rhysforyou/gatsby-plugin-safari-site-icon.git",
+  "author": "Rhys Powell <rhys@rpowell.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "babel src --out-dir . --ignore **/__tests__",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore **/__tests__",
+    "clean": "rm {gatsby-node,gatsby-ssr,common,svgo}.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "cross-env": "^5.1.4",
+    "gatsby": "^2.1.31"
+  },
+  "peerDependencies": {
+    "gatsby": "2.x"
+  },
+  "dependencies": {
+    "svgo": "^1.2.0"
+  }
+}
