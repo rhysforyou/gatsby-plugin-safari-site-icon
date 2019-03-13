@@ -6,7 +6,7 @@ Adds support for shipping a Safari site icon with your site. Safari site icons
 are monochrome, SVG icons which safari uses in place of favicons where provided.
 
 [This section of Apple's developer documentation][docs] gives a good overview of
-the subject, though it's worth nothing these icons are now used in many other
+the subject, though it's worth noting these icons are now used in many other
 cases than just pinned sites nowadays.
 
 [docs]: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/pinnedTabs/pinnedTabs.html
