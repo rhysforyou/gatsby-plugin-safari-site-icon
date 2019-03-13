@@ -87,3 +87,6 @@ typings/
 /gatsby-node.js
 /gatsby-ssr.js
 /svgo.js
+
+# Packed npm tarball
+rhysforyou-gatsby-plugin-safari-site-icon-*.tgz
